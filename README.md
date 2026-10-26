@@ -67,7 +67,7 @@ tv-flip-clock/
 ### Install to TV over ADB
 ```bash
 # Connect to your TV (replace with your TV's IP)
-adb connect 192.168.0.154:5555
+adb connect 0.0.0.0:5555
 
 # Install APK
 adb install -r app/build/outputs/apk/debug/app-debug.apk
