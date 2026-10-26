@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/flip_bg"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:paddingStart="24dp"
+    android:paddingEnd="24dp">
+
+    <!-- 1) Hours Card (Square 1:1) -->
+    <com.ambient.flipclock.view.FlipCardView
+        android:id="@+id/flip_hours"
+        android:layout_width="360dp"
+        android:layout_height="360dp"
+        android:clickable="true"
+        android:focusable="true" />
+
+    <!-- Gap -->
+    <Space
+        android:layout_width="28dp"
+        android:layout_height="match_parent" />
+
+    <!-- 2) Minutes Card (Square 1:1) -->
+    <com.ambient.flipclock.view.FlipCardView
+        android:id="@+id/flip_minutes"
+        android:layout_width="360dp"
+        android:layout_height="360dp"
+        android:clickable="true"
+        android:focusable="true" />
+
+    <!-- Gap -->
+    <Space
+        android:layout_width="28dp"
+        android:layout_height="match_parent" />
+
+    <!-- 3) Seconds Card (Square 1:1) -->
+    <com.ambient.flipclock.view.FlipCardView
+        android:id="@+id/flip_seconds"
+        android:layout_width="360dp"
+        android:layout_height="360dp"
+        android:clickable="true"
+        android:focusable="true" />
+
+</LinearLayout>

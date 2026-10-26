@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 100% Exact Fliqlo Minimalist Palette -->
+    <color name="flip_bg">#000000</color>
+    <color name="flip_card">#202020</color>
+    <color name="flip_card_dark">#181818</color>
+    <color name="flip_text">#D0D0D0</color>
+    <color name="flip_slit">#000000</color>
+    <color name="flip_shadow">#80000000</color>
+</resources>
