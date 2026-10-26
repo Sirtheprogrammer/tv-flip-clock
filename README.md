@@ -6,7 +6,7 @@ A sleek, hardware-accelerated minimalist 3D flip clock application built for And
 
 ---
 
-## ✨ Features
+## Features
 
 - **3-Tile Flip Display**: Hours, Minutes, and real-time ticking Seconds.
 - **Hardware-Accelerated 3D Motion**: Smooth downward flip turnover using `android.graphics.Camera` 3D X-axis rotation and dynamic lighting shadows (runs at 60 FPS natively with zero WebView overhead).
@@ -21,7 +21,7 @@ A sleek, hardware-accelerated minimalist 3D flip clock application built for And
 
 ---
 
-## 📸 Preview
+## Preview
 
 | Live TV Render (Hours : Minutes : Seconds) | Reference Inspiration |
 |:---:|:---:|
@@ -29,7 +29,7 @@ A sleek, hardware-accelerated minimalist 3D flip clock application built for And
 
 ---
 
-## 🛠️ Project Structure
+## Project Structure
 
 ```
 tv-flip-clock/
@@ -52,7 +52,7 @@ tv-flip-clock/
 
 ---
 
-## 🚀 Building & Installing
+## Building & Installing
 
 ### Requirements
 - Android SDK (API 28 - 34)
@@ -78,7 +78,7 @@ adb shell am start -n com.ambient.flipclock/.MainActivity
 
 ---
 
-## 🎮 Controls
+## Controls
 
 | Remote Button | Action |
 |---|---|
@@ -87,6 +87,6 @@ adb shell am start -n com.ambient.flipclock/.MainActivity
 
 ---
 
-## 📄 License
+## License
 
 MIT License. Free to use and modify.
